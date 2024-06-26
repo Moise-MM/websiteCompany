@@ -8,6 +8,9 @@
 
     <x-projects :project="$project"/>
 
+    <x-contact :contact="$contact"/>
+
+    <x-footer :company="$company"/>
 
 
 </x-base-layout>
