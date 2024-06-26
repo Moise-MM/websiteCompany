@@ -11,13 +11,13 @@
       </div>
       <div class="row">
         @foreach ($project->itemProjects as $itemProject)
-          <div class="col-md-4 mb-3">
-            <div class="card border-0 overflow-hidden">
-              <a href=""
-                ><img src="{{ $itemProject->image_project }}" alt="" class="card-img"
-              /></a>
+          @foreach ( $itemProject->projectImages as $image )
+            <div class="col-md-4 mb-3">
+              <div class="card border-0 overflow-hidden">
+                <img src="{{ $image->image_path }}" alt="" class="card-img"/>
+              </div>
             </div>
-          </div>
+          @endforeach
         @endforeach
       </div>
     </div>

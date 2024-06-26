@@ -6,6 +6,8 @@
 
     <x-services :service="$service"/>
 
+    <x-projects :project="$project"/>
+
 
 
 </x-base-layout>

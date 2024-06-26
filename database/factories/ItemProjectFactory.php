@@ -17,7 +17,7 @@ class ItemProjectFactory extends Factory
     public function definition(): array
     {
         return [
-            "projects_id" => 1,
+            "project_id" => 1,
             "name" => "lorem"
         ];
     }

@@ -17,8 +17,8 @@ class ProjectImageFactory extends Factory
     public function definition(): array
     {
         return [
-            'item_projects_id' => 1,
-            "image_path" => "/img/projet1.jpg"
+            'item_project_id' => 1,
+            "image_path" => "img/projet1.jpg"
         ];
     }
 }
