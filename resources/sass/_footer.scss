@@ -1,0 +1,16 @@
+footer {
+    .footer-top {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        background-color: $dark;
+    }
+    
+    .footer-top a {
+        color: $color-body;
+    }
+    
+    .footer-top a:hover {
+        color: $white;
+    }
+    
+}

@@ -1,0 +1,50 @@
+$font-md: 500;
+$font-sm: 300;
+$font-lg: 900;
+
+$primary: #33547F;
+$dark: #21252f;
+$color-body: #888;
+$box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+$white: #ffffff;
+$lightBg: #f6f6f6;
+$paddingLg: 120px;
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.7;
+    color: $color-body;
+    font-weight: $font-sm;
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+h1,
+h2,
+h3,
+h4.h5,
+h6,
+.display-5 {
+  color: $dark;
+  font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+}
+
+.button {
+    padding: 14px 18px;
+    border-width: 2px;
+    border-radius: 0;
+    background-color: $primary;
+    color: $white;
+}
+
+a {
+    text-decoration: none;
+}
