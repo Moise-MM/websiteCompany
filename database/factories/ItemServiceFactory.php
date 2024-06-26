@@ -17,7 +17,7 @@ class ItemServiceFactory extends Factory
     public function definition(): array
     {
         return [
-            "services_id" => 1,
+            "service_id" => 1,
             "name" => "exemple service",
             "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur magnam eum sit accusamus culpa voluptate."
         ];

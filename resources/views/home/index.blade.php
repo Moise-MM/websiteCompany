@@ -1,5 +1,11 @@
 <x-base-layout>
 
-<h1>Hello</h1>
+    <x-header :header="$header"/>
+
+    <x-about  :about="$about"/>
+
+    <x-services :service="$service"/>
+
+
 
 </x-base-layout>
