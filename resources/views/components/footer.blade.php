@@ -3,7 +3,7 @@
     <footer>
         <div class="footer-top">
           <div class="container">
-            <div class="row gy-4">
+            <div class="row gy-4 align-items-center">
               <div class="col-lg-4">
                 <img class="logo" src="img/logo.png" alt="" width="250" />
               </div>

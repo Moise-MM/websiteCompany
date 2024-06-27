@@ -33,7 +33,8 @@
 						<div class="card">
 							<div class="card-body">
 								<div class="m-sm-3">
-									<form>
+									<form method="POST" action="{{ route('login.connexion')}}">
+                                        @csrf
 										<div class="mb-3">
 											<label class="form-label">Email</label>
 											<input class="form-control form-control-lg" type="email" name="email" placeholder="Entrez votre email" />
@@ -49,7 +50,7 @@
 											</div>
 										</div>
 										<div class="d-grid gap-2 mt-3">
-											<a href="index.html" class="btn btn-lg btn-primary">Se connecter</a>
+											<button class="btn btn-lg btn-primary">Se connecter</button>
 										</div>
 									</form>
 								</div>

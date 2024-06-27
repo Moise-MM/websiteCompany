@@ -6,7 +6,10 @@ use App\Http\Controllers\HomeController;
 
 
 
-Route::get('/admin/login', [LoginController::class, 'loginForm'])->name('login');
+
+Route::get('/dashboard/login', [LoginController::class, 'loginForm'])->name('login');
+Route::post('/dashboard/login/connexion', [LoginController::class, 'login'])->name('login.connexion');
+
 
 
 Route::get('',[HomeController::class, 'index'])->name('home.index');
