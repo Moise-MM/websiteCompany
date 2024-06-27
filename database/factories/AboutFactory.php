@@ -24,7 +24,6 @@ class AboutFactory extends Factory
                         ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quo accusantium veniam quas 
                         saepe minima? Sit vero repellat corporis cupiditate. Lorem, ipsum dolor sit amet consectetur 
                         adipisicing elit. Voluptatum, quo accusantium veniam quas saepe minima? Sit vero repellat corporis cupiditate.",
-            "image_about" => "/img/img1.jpg"
         ];
     }
 }
