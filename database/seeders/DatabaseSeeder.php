@@ -35,7 +35,7 @@ class DatabaseSeeder extends Seeder
         Project::factory()->create();
         Service::factory()->create();
         ItemProject::factory(6)->create();
-        ItemService::factory(3)->create();
+        ItemService::factory(6)->create();
         ContactSection::factory()->create();
         ProjectImage::factory(6)->create();
     }

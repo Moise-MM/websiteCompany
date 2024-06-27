@@ -13,7 +13,7 @@
     
       <div class="row">
         @foreach ($service->itemServices as $itemService)
-        <div class="col-md-4 pt-2">
+        <div class="col-md-4 pt-2 pb-2">
           <div class="card border-0 p-4">
             <div class="card-body">
               <i class="bi bi-activity"></i>
