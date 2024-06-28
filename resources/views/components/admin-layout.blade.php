@@ -78,9 +78,10 @@
                 <img src="img/avatars/avatar.jpg" class="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span class="text-dark">Charles Hall</span>
               </a>
 							<div class="dropdown-menu dropdown-menu-end">
-								<a class="dropdown-item" href="pages-profile.html"><i class="align-middle me-1" data-feather="user"></i> Profile</a>
+								<a class="dropdown-item" href="pages-profile.html"><i class="align-middle me-1" data-feather="user"></i> Mon profil</a>
 								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">Log out</a>
+                                <a class="dropdown-item" href="{{ route('home.index') }}"><i class="align-middle me-1" data-feather="user"></i>Retour au site web</a>
+								<a class="dropdown-item" href="#">Se deconnecter</a>
 							</div>
 						</li>
 					</ul>

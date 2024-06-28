@@ -11,7 +11,7 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col mt-0">
-                                            <h5 class="card-title">Sales</h5>
+                                            <h5 class="card-title">Nombre de services</h5>
                                         </div>
 
                                         <div class="col-auto">
@@ -20,18 +20,14 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <h1 class="mt-1 mb-3">2.382</h1>
-                                    <div class="mb-0">
-                                        <span class="text-danger"> <i class="mdi mdi-arrow-bottom-right"></i> -3.65% </span>
-                                        <span class="text-muted">Since last week</span>
-                                    </div>
+                                    <h1 class="mt-1 mb-3">7</h1>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col mt-0">
-                                            <h5 class="card-title">Visitors</h5>
+                                            <h5 class="card-title">Nombre de visiteurs</h5>
                                         </div>
 
                                         <div class="col-auto">
@@ -41,10 +37,6 @@
                                         </div>
                                     </div>
                                     <h1 class="mt-1 mb-3">14.212</h1>
-                                    <div class="mb-0">
-                                        <span class="text-success"> <i class="mdi mdi-arrow-bottom-right"></i> 5.25% </span>
-                                        <span class="text-muted">Since last week</span>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +45,7 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col mt-0">
-                                            <h5 class="card-title">Earnings</h5>
+                                            <h5 class="card-title">Nombre de projet en cours</h5>
                                         </div>
 
                                         <div class="col-auto">
@@ -62,18 +54,14 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <h1 class="mt-1 mb-3">$21.300</h1>
-                                    <div class="mb-0">
-                                        <span class="text-success"> <i class="mdi mdi-arrow-bottom-right"></i> 6.65% </span>
-                                        <span class="text-muted">Since last week</span>
-                                    </div>
+                                    <h1 class="mt-1 mb-3">15</h1>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col mt-0">
-                                            <h5 class="card-title">Orders</h5>
+                                            <h5 class="card-title">Nombre de projet realiser</h5>
                                         </div>
 
                                         <div class="col-auto">
@@ -83,10 +71,6 @@
                                         </div>
                                     </div>
                                     <h1 class="mt-1 mb-3">64</h1>
-                                    <div class="mb-0">
-                                        <span class="text-danger"> <i class="mdi mdi-arrow-bottom-right"></i> -2.25% </span>
-                                        <span class="text-muted">Since last week</span>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -173,9 +157,21 @@
             </div>
 
 
+            <div class="row">
+                <div class="col">
+                    <h3>Gerer les differents section du page d'accueil</h3>
+                    <hr>
 
-
-    
-
+                      <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                            Section en tete
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Section d'a propos de nous</a>
+                        <a href="#" class="list-group-item list-group-item-action">Section nos services</a>
+                        <a href="#" class="list-group-item list-group-item-action">Section nos projects</a>
+                        <a class="list-group-item list-group-item-action disabled">Section Contact</a>
+                      </div>
+                </div>
+            </div>
 
 </x-admin-layout>
