@@ -32,7 +32,7 @@ class LoginController extends Controller
             // regenerate the session ID for the user
             $request->session()->regenerate();
 
-            return redirect(route('home.index'));
+            return redirect(route('dashboard'));
         }
 
         //redirect the user back to the previous page
